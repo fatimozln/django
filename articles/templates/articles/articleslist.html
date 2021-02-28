@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ARTICLES</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+
+<body>
+    <h1> Articles List </h1>
+    {% for ithem in articles %}
+    <h2><a href="#">{{ithem.title}}</a></h2>
+    <p>{{ithem.snippet}}</p>
+    <P>{{ithem.date}}</P>
+    {% endfor %}
+</body>
+
+</html>
