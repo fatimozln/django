@@ -2,27 +2,11 @@
 {% block content%}
 <div class="add-post">
     <h1> Add Post </h1>
+    <form class="site-form" action="{% url 'post:add_post' %}" method="POST">
+        {{form}}
+        {% csrf_token %}
+        <input type="submit" value="Add">
+    </form>
 </div>
 
-
-
-<form action="post_visit/add_post" method="POST">
-    <label for="text">title:</label>
-    <input type="text">
-    <br>
-    <br>
-    <label for="text">slug:</label>
-    <input type="text">
-    <br>
-    <br>
-
-    <label for="text">body:</label>
-    <textarea rows="10" cols="30"></textarea>
-    <br>
-    <br>
-    <form method="POST">
-        {% csrf_token %}
-        {{form}}
-        <button class="btn btn-secondary">ADD</button>
-    </form>
-    {% endblock %}
+{% endblock %}
