@@ -1,0 +1,17 @@
+db.sqlite3
+*.__pycache__
+accounts/__pycache__/__init__.cpython-38.pyc
+accounts/__pycache__/admin.cpython-38.pyc
+accounts/__pycache__/models.cpython-38.pyc
+accounts/__pycache__/urls.cpython-38.pyc
+accounts/__pycache__/views.cpython-38.pyc
+accounts/migrations/__pycache__/__init__.cpython-38.pyc
+articles/__pycache__/urls.cpython-38.pyc
+articles/__pycache__/urls.cpython-38.pyc
+articles/__pycache__/urls.cpython-38.pyc
+famemo/__pycache__/settings.cpython-38.pyc
+famemo/__pycache__/urls.cpython-38.pyc
+articles/__pycache__/urls.cpython-38.pyc
+post/__pycache__/__init__.cpython-38.pyc
+post/__pycache__/admin.cpython-38.pyc
+post/__pycache__/models.cpython-38.pyc
